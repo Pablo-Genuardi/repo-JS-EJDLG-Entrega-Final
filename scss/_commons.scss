@@ -1,0 +1,111 @@
+
+.card-background{
+	background-color: rgba(105, 112, 96, 0.7);
+	margin: 1rem 0rem;
+	padding: 1rem 1rem;
+}
+
+.card-background-rounded{
+    @extend .card-background;
+    border-radius: 12px;
+}
+
+@mixin powered-by($size,$color){
+    font-size: $size;
+    color: $color;
+}
+
+.text-powered-by{
+    @include powered-by(1.5rem, rgb(241, 241, 241))
+}
+
+$bg-color:(
+    '1': rgba(105, 112, 96, 1),
+);
+
+.nav-bg-grey{
+    background-color: map-get($map:$bg-color, $key: '1')
+}
+
+
+
+//Common tags
+
+
+
+.art-pic{
+	margin-top: 1rem;
+	width: 100%;
+}
+
+
+.table-text{
+	font-size: $table-text;
+	color: $key-color;
+}
+
+.table-text-2{
+	font-size: $table-text;
+	color: $text-color;	
+}
+
+
+.btn-color{
+	background-color: $deep-orange;
+}
+
+
+.grey-background{
+	background-color: $main-color;
+	margin-top: 1rem;
+	margin-left: 0rem;
+	margin-right: 0rem;
+	padding: 1rem;
+	border-radius: 12px;
+}
+
+
+.grey-background-h1{
+	background-color: $main-color;
+	padding: 2rem;
+	margin: 2rem 0rem;
+	border-radius: 12px;
+}
+
+
+.grey-background-h2{
+	background-color: $main-color;
+	padding: 2rem;
+	margin: 2rem 0rem;
+	border-radius: 12px;
+}
+
+.grey-background-articles{
+	background-color: $main-color;
+	margin: 0rem 1rem;
+	padding: 0rem 0rem;
+	border-radius: 12px;
+}
+
+.card-background{
+	background-color: $main-color;
+	margin: 1rem 0rem;
+	padding: 1rem 1rem;
+}
+
+
+.round-borders-25{
+	border-radius: 12px;
+}
+
+
+.round-borders-12-5{
+	border-radius: 12px;
+}
+
+
+.cazador{
+	margin: 0rem;
+	width: 100%;
+	border-radius: 12px;
+}

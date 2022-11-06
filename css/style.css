@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+h1 {
+  color: #eb9c4d; }
+
+h2 {
+  color: #eb9c4d; }
+
+h3 {
+  color: #eb9c4d; }
+
+p {
+  color: #ffec82; }
+
+h1 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif; }
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif; }
+
+h3 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif; }
+
+p {
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  line-height: 2.8rem; }
+
+.card-background, .card-background-rounded {
+  background-color: rgba(105, 112, 96, 0.7);
+  margin: 1rem 0rem;
+  padding: 1rem 1rem; }
+
+.card-background-rounded {
+  border-radius: 12px; }
+
+.text-powered-by {
+  font-size: 1.5rem;
+  color: #f1f1f1; }
+
+.nav-bg-grey {
+  background-color: #697060; }
+
+.art-pic {
+  margin-top: 1rem;
+  width: 100%; }
+
+.table-text {
+  font-size: 2rem;
+  color: #eb9c4d; }
+
+.table-text-2 {
+  font-size: 2rem;
+  color: #ffec82; }
+
+.btn-color {
+  background-color: #f36100; }
+
+.grey-background {
+  background-color: rgba(105, 112, 96, 0.7);
+  margin-top: 1rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding: 1rem;
+  border-radius: 12px; }
+
+.grey-background-h1 {
+  background-color: rgba(105, 112, 96, 0.7);
+  padding: 2rem;
+  margin: 2rem 0rem;
+  border-radius: 12px; }
+
+.grey-background-h2 {
+  background-color: rgba(105, 112, 96, 0.7);
+  padding: 2rem;
+  margin: 2rem 0rem;
+  border-radius: 12px; }
+
+.grey-background-articles {
+  background-color: rgba(105, 112, 96, 0.7);
+  margin: 0rem 1rem;
+  padding: 0rem 0rem;
+  border-radius: 12px; }
+
+.card-background, .card-background-rounded {
+  background-color: rgba(105, 112, 96, 0.7);
+  margin: 1rem 0rem;
+  padding: 1rem 1rem; }
+
+.round-borders-25 {
+  border-radius: 12px; }
+
+.round-borders-12-5 {
+  border-radius: 12px; }
+
+.cazador {
+  margin: 0rem;
+  width: 100%;
+  border-radius: 12px; }
+
+nav ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #eb9c4d !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200; }
+  nav ul li a:hover {
+    color: #f36100;
+    font-weight: 300;
+    transform: scaleY(1.1);
+    transform: scaleX(1.1);
+    transition: all 1s;
+    cursor: pointer; }
+
+.isologo-nav img {
+  width: 82px; }
+
+@media (min-width: 120px) and (max-width: 500px) {
+  .isologo-nav img {
+    width: 52px; } }
+
+footer {
+  background-color: #697060;
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.f-spacing {
+  margin: 0px 3px; }
+
+.icons-size {
+  width: 100%; }
+
+
+.card-e-shop{
+  background-color:  rgba(59, 73, 41, 0.7);
+}
+
+.photo-card-shop{
+  text-align: center;
+  width: 80%;
+  margin: 1rem;
+}
+
+.button-font-size{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.card-font-size{
+  font-size: 2rem;
+}
+
+.margin{
+  margin: 1rem;
+}
+
+.btn-color2{
+  background-color: rgb(133, 155, 98);
+}
+
+.round-borders-4 {
+  border-radius: 4px; }
+
+section{
+  display: flex;
+  width: 100%;
+  min-width: 350px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 4rem;
+    
+  }
+  
+@media (min-width: 120px) and (max-width: 494px) {
+  .text-powered-by {
+    display: none; } }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: url(../img/lawn-sm-min.png);
+  background-attachment: auto;
+  max-width: 1600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+
+
+
+
+
+

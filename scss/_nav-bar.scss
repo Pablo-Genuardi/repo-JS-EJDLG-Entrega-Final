@@ -1,0 +1,33 @@
+
+
+nav ul li a {
+	font-size: $nav-text;
+	text-decoration: none;
+	color: $key-color !important;
+	font-family: $main-font;
+	font-weight: 200;
+    &:hover { 
+        color: $deep-orange;
+        font-weight: 300;
+        transform: scaleY(1.1);
+        transform: scaleX(1.1);
+        transition: all 1s ;
+        cursor: pointer;
+    }
+}
+
+
+
+.isologo-nav img{
+	width: 82px;
+}
+
+
+@media (min-width: 120px) and (max-width: 500px) {
+
+	.isologo-nav img{
+	
+	width: 52px;
+	}
+	
+	}

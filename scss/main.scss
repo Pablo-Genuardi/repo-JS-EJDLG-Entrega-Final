@@ -1,0 +1,29 @@
+@import "_vars";
+@import "_fonts";
+@import "_commons";
+@import "_nav-bar";
+@import "_footer";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+html{
+	font-size: 62.5%;
+}
+
+
+body{
+	background-image: url(../img/lawn-sm-min.png);
+	background-attachment: auto;
+	max-width: 1600px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+
+
+

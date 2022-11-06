@@ -1,0 +1,58 @@
+
+[
+
+    {
+        "id":1,
+        "name": "Workshop de flores y canteros",
+        "description": "Workshop-1",
+        "price": 7.900,
+        "image": "../img/w-flores.png",
+        "info" : "../views/workshops.html"
+    },
+
+    {
+        "id":2,
+        "name": "Workshop de huertas",
+        "description": "Workshop-2",
+        "price": 8.900,
+        "image": "../img/w-huertas.png",
+        "info" : "../views/workshops.html"
+    },
+
+    {
+        "id":3,
+        "name": "Workshop sobre fertilizacion y plagas",
+        "description": "Workshop-3",
+        "price": 6.900,
+        "image": "../img/w-organicos.png",
+        "info" : "../views/workshops.html"
+    },
+
+    {
+        "id":4,
+        "name": "Workshop sobre tecnicas de siembra",
+        "description": "Workshop-4",
+        "price": 6.900,
+        "image": "../img/w-siembra.png",
+        "info" : "../views/workshops.html"
+    },
+
+    {
+        "id":5,
+        "name": "Pack de semillas - primavera / verano",
+        "description": "Pack de semillas - primavera / verano",
+        "price": 4.900,
+        "image": "../img/seeds-e-shop.png",
+        "info" : "../views/semillas.html"
+    },
+
+    {
+        "id":6,
+        "name": "Pack de semillas - otono / invierno",
+        "description": "Pack de semillas  otono / invierno",
+        "price": 4.900,
+        "image": "../img/seeds-e-shop.png",
+        "info" : "../views/semillas.html"
+    }
+
+]

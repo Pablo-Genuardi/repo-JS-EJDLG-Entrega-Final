@@ -1,0 +1,28 @@
+
+
+footer{
+	background-color: rgba(105, 112, 96, 1);
+	padding: 8px 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;	
+}
+
+.f-spacing{
+	margin: 0px 3px;
+	
+}
+
+.icons-size{
+	width: 100%;
+}
+
+@media (min-width: 120px) and (max-width: 494px) {
+
+    .text-powered-by{
+    
+    display: none;
+    }
+    
+    }
